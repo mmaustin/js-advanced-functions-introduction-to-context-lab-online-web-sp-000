@@ -1,14 +1,3 @@
-/*const testEmployee = {firstName: "", familyName: "", title: "", payPerHour: 0, timeInEvents: [], timeOutEvents: []}
-
-function createEmployeeRecord(array){
-    testEmployee.firstName = array[0];
-    testEmployee.familyName = array[1];
-    testEmployee.title = array[2];
-    testEmployee.payPerHour = array[3];
-
-  return testEmployee;
-}
-createEmployeeRecord(["Gray", "Worm", "Security", 1])*/
 
 let createEmployeeRecord = function(array){
   return {
